@@ -1,0 +1,20 @@
+body {
+  background-color: #ffe4e1;
+  margin: 0 8%;
+}
+
+h1 {
+  text-decoration: underline dotted #000;
+}
+
+a {
+  border: solid 10px pink;
+  color: #000;
+  display: inline-block;
+  padding: 0 1rem;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c24d60;
+}
