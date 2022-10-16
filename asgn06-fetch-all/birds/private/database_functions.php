@@ -7,6 +7,7 @@ function db_connect()
   return $connection;
 }
 
+
 function confirm_db_connect($connection)
 {
   if ($connection->connect_errno) {

@@ -19,6 +19,7 @@
         <th>Behavior</th>
         <th>Conservation Level</th>
         <th>Backyard Tips</th>
+        <th>&nbsp;</th>
       </tr>
 
       <?php
@@ -34,6 +35,7 @@
           <td><?php echo h($bird->behavior); ?></td>
           <td><?php echo h($bird->conservation_id); ?></td>
           <td><?php echo h($bird->backyard_tips); ?></td>
+          <td><a href="detail.php?id=<?php echo $bird->id; ?>">View</a></td>
         <tr>
         <?php } ?>
     </table>
